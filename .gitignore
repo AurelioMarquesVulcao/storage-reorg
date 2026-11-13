@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Python artifacts
+*.egg-info/
+*.egg
+.eggs/
+build/
+*.whl
+
+# Test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+coverage/
+.nyc_output/
+
+# Vite / build
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db

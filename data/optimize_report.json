@@ -1,0 +1,216 @@
+{
+  "generated_at": "2026-11-13T12:49:28.233463",
+  "summary": {
+    "total_moves": 8,
+    "total_deletes": 2,
+    "total_moves_count": 5,
+    "total_merges": 1,
+    "total_size_gb": 523.7,
+    "freed_1tera_gb": 296.6,
+    "freed_1tera_human": "296.0 GB",
+    "critical_hd": "/mnt/1tera",
+    "critical_hd_current": 87.5,
+    "critical_hd_projected": 55.7
+  },
+  "hds_current": [
+    {
+      "mount": "/mnt/dados",
+      "label": "DADOS",
+      "role": "backups, LIVES, dados servidor",
+      "size_bytes": 500090011648,
+      "used_bytes": 277021065216,
+      "free_bytes": 223068946432,
+      "use_pct": 55.4,
+      "size_human": "465.0 GB",
+      "used_human": "257.0 GB",
+      "free_human": "207.0 GB",
+      "available": true
+    },
+    {
+      "mount": "/mnt/aurelio-yasmin",
+      "label": "AURELIO-YASMIN",
+      "role": "conteúdo do casal",
+      "size_bytes": 640132575232,
+      "used_bytes": 487520923648,
+      "free_bytes": 152611651584,
+      "use_pct": 76.2,
+      "size_human": "596.0 GB",
+      "used_human": "454.0 GB",
+      "free_human": "142.0 GB",
+      "available": true
+    },
+    {
+      "mount": "/mnt/1tera",
+      "label": "1TERA",
+      "role": "animes, mangas, filmes cinema, séries",
+      "size_bytes": 999960870912,
+      "used_bytes": 875247173632,
+      "free_bytes": 124713697280,
+      "use_pct": 87.5,
+      "size_human": "931.0 GB",
+      "used_human": "815.0 GB",
+      "free_human": "116.0 GB",
+      "available": true
+    },
+    {
+      "mount": "/mnt/samsung300",
+      "label": "SAMSUNG300",
+      "role": "overflow/staging/downloads",
+      "size_bytes": 320059998208,
+      "used_bytes": 85085782016,
+      "free_bytes": 234974216192,
+      "use_pct": 26.6,
+      "size_human": "298.0 GB",
+      "used_human": "79.0 GB",
+      "free_human": "218.0 GB",
+      "available": true
+    },
+    {
+      "mount": "/mnt/1tb-filmes",
+      "label": "1TB-FILMES",
+      "role": "filmes por artista (único lugar)",
+      "size_bytes": 1000170586112,
+      "used_bytes": 784770400256,
+      "free_bytes": 215400185856,
+      "use_pct": 78.5,
+      "size_human": "931.0 GB",
+      "used_human": "730.0 GB",
+      "free_human": "200.0 GB",
+      "available": true
+    }
+  ],
+  "hds_projected": [
+    {
+      "mount": "/mnt/dados",
+      "label": "DADOS",
+      "current_use_pct": 55.4,
+      "projected_use_pct": 77.5,
+      "current_free_human": "207.0 GB",
+      "projected_free_human": "104.0 GB",
+      "delta_bytes": 110595407872,
+      "delta_human": "+103.0 GB"
+    },
+    {
+      "mount": "/mnt/aurelio-yasmin",
+      "label": "AURELIO-YASMIN",
+      "current_use_pct": 76.2,
+      "projected_use_pct": 38.3,
+      "current_free_human": "142.0 GB",
+      "projected_free_human": "368.0 GB",
+      "delta_bytes": -242665652224,
+      "delta_human": "-226.0 GB"
+    },
+    {
+      "mount": "/mnt/1tera",
+      "label": "1TERA",
+      "current_use_pct": 87.5,
+      "projected_use_pct": 55.7,
+      "current_free_human": "116.0 GB",
+      "projected_free_human": "412.0 GB",
+      "delta_bytes": -318471824998,
+      "delta_human": "-296.0 GB"
+    },
+    {
+      "mount": "/mnt/samsung300",
+      "label": "SAMSUNG300",
+      "current_use_pct": 26.6,
+      "projected_use_pct": 82.9,
+      "current_free_human": "218.0 GB",
+      "projected_free_human": "50.0 GB",
+      "delta_bytes": 180388626432,
+      "delta_human": "+168.0 GB"
+    },
+    {
+      "mount": "/mnt/1tb-filmes",
+      "label": "1TB-FILMES",
+      "current_use_pct": 78.5,
+      "projected_use_pct": 102.7,
+      "current_free_human": "200.0 GB",
+      "projected_free_human": "0.0 B",
+      "delta_bytes": 242665652224,
+      "delta_human": "+226.0 GB"
+    }
+  ],
+  "moves": [
+    {
+      "type": "DELETE",
+      "source": "/mnt/1tera/Mangas - Capitulos - test",
+      "dest": null,
+      "reason": "Resíduo de teste — pasta criada durante testes de capítulos de mangá",
+      "size_gb": 22.0,
+      "size_human": "22.0 GB",
+      "from_hd": "/mnt/1tera",
+      "to_hd": null
+    },
+    {
+      "type": "DELETE",
+      "source": "/mnt/1tera/Mangas - HTML Cache",
+      "dest": null,
+      "reason": "Cache HTML regenerável de mangás",
+      "size_gb": 3.6,
+      "size_human": "3.0 GB",
+      "from_hd": "/mnt/1tera",
+      "to_hd": null
+    },
+    {
+      "type": "MERGE",
+      "source": "/mnt/1tera/Mangas - Extracao - Original",
+      "dest": "/mnt/1tera/Mangas - Extração - Original",
+      "reason": "Encoding incorreto no nome da pasta; mesclar na versão com acentuação correta",
+      "size_gb": 1.1,
+      "size_human": "1.0 GB",
+      "from_hd": "/mnt/1tera",
+      "to_hd": "/mnt/1tera"
+    },
+    {
+      "type": "MOVE",
+      "source": "/mnt/1tera/Backup-arquivos-1tb",
+      "dest": "/mnt/dados/backup/Backup-arquivos-1tb",
+      "reason": "Backup pertence ao HD de dados; libera espaço crítico no 1TERA",
+      "size_gb": 43.0,
+      "size_human": "43.0 GB",
+      "from_hd": "/mnt/1tera",
+      "to_hd": "/mnt/dados"
+    },
+    {
+      "type": "MOVE",
+      "source": "/mnt/1tera/backup_pendrive128",
+      "dest": "/mnt/dados/backup/backup_pendrive128",
+      "reason": "Backup de pendrive pertence ao HD de dados; libera espaço crítico no 1TERA",
+      "size_gb": 60.0,
+      "size_human": "60.0 GB",
+      "from_hd": "/mnt/1tera",
+      "to_hd": "/mnt/dados"
+    },
+    {
+      "type": "MOVE",
+      "source": "/mnt/aurelio-yasmin/famosas",
+      "dest": "/mnt/1tb-filmes/filmes/famosas",
+      "reason": "Filmes de famosas devem residir em 1TB-Filmes (HD de filmes por artista)",
+      "size_gb": 106.0,
+      "size_human": "106.0 GB",
+      "from_hd": "/mnt/aurelio-yasmin",
+      "to_hd": "/mnt/1tb-filmes"
+    },
+    {
+      "type": "MOVE",
+      "source": "/mnt/aurelio-yasmin/Não Separado",
+      "dest": "/mnt/1tb-filmes/nao-separado",
+      "reason": "Conteúdo não separado de filmes deve ir para 1TB-Filmes/nao-separado",
+      "size_gb": 120.0,
+      "size_human": "120.0 GB",
+      "from_hd": "/mnt/aurelio-yasmin",
+      "to_hd": "/mnt/1tb-filmes"
+    },
+    {
+      "type": "MOVE",
+      "source": "/mnt/1tera/Torrent",
+      "dest": "/mnt/samsung300/Torrent",
+      "reason": "Torrents em andamento devem ficar em Samsung300 (staging/downloads); libera 168 GB do 1TERA",
+      "size_gb": 168.0,
+      "size_human": "168.0 GB",
+      "from_hd": "/mnt/1tera",
+      "to_hd": "/mnt/samsung300"
+    }
+  ]
+}
